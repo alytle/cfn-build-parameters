@@ -1,0 +1,21 @@
+{
+  "name": "cfn-build-parameters",
+  "version": "1.0.0",
+  "description": "CLI script which inspects a given Cloudformation template, asks the user to input the CFN parameters at the console, and outputs a JSON file for use with AWS CLI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Lytle",
+  "license": "ISC",
+  "bin": {
+    "cfn-build-parameters": "./cli.js"
+  },
+  "dependencies": {
+    "cfn-lint": "^1.5.0",
+    "chalk": "^2.3.2",
+    "meow": "^4.0.0",
+    "pretty-error": "^2.1.1",
+    "readline-sync": "^1.4.9"
+  }
+}
